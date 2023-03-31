@@ -1,0 +1,32 @@
+body{
+	margin:0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family: 'Times New Roman', Times, serif;
+    -webkit-font-smoothing:antialiased;
+	background-color: #f6f3ea;
+}
+
+header{
+	background:#7FA368;
+	position:fixed;
+	width:100%;
+	z-index: 1;
+}
+
+header h1{
+	color:white;
+	padding:90px 25px;
+	font-size:3.5em;
+	font-weight:bold;
+	transition: padding .3s, font-size .3s;
+}
+
+header nav{
+	position:absolute;
+	top:134px;
+	right:25px;
+	transition: top .3s;
+}
