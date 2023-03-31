@@ -1,67 +1,39 @@
 body{
-	margin:0;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
-	font-family: 'Times New Roman', Times, serif;
-    -webkit-font-smoothing:antialiased;
-	background-color: #f6f3ea;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
 }
 
 header{
-	background:#7FA368;
-	position:fixed;
-	width:100%;
-	z-index: 1;
+    background-color: green;
+    position: fixed;
+    width: 100%;
 }
 
 header h1{
-	color:white;
-	padding:90px 25px;
-	font-size:3.5em;
-	font-weight:bold;
-	transition: padding .3s, font-size .3s;
+    width: auto;
+    color: white;
+    padding: 90px 25px;
+    font-size: 3.5em;
+    font-weight: bold;
+    float: left;
+}
+
+header a{
+    color: white;
+    text-decoration: None;
 }
 
 header nav{
-	position:absolute;
-	top:134px;
-	right:25px;
-	transition: top .3s;
+    position:absolute;
+    top: 134px;
+	right: 25px;
 }
 
-header h1 a{
-	text-decoration:none;
-	color: white;
-}
-
-nav div{
-	float:left;
-	margin-left:20px;
-    margin-top: 20px;
-	list-style-type:none;
-	font-weight:bold;
-	color : white;
-	cursor : default;
-}
-
-nav div a{
-	text-decoration:none;
-	color: white;
-}
-
-nav div a:hover{
-    border-radius: 5px;
-    background-color: white;
-	color:green;
-}
-
-header.small h1{
-	padding:25px;
-	font-size:1.5em;
-}
-
-header.small nav{
-	top:30px;
+.subtitle{
+    color: white;
+    display: inline-block;
 }
