@@ -23,17 +23,26 @@ header h1{
 }
 
 header a{
+    height: 100%;
     color: white;
     text-decoration: None;
+    transform: 0.5s;
 }
 
 header nav{
+    height: 100%;
     position:absolute;
-    top: 134px;
-	right: 25px;
+	right: 25px;  
+    /* padding-top: 134px; */
 }
 
 .subtitle{
     color: white;
     display: inline-block;
+    height: 100%;
+    cursor: default;
+}
+
+.subtitle a:hover{
+    color: green;
 }
