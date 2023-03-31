@@ -35,3 +35,22 @@ header h1 a{
 	text-decoration:none;
 	color: white;
 }
+
+nav div{
+	float:left;
+	margin-left:20px;
+    margin-top: 20px;
+	list-style-type:none;
+	font-weight:bold;
+}
+
+nav div a{
+	text-decoration:none;
+	color: white;
+}
+
+nav div a:hover{
+    border-radius: 5px;
+    background-color: white;
+	color:green;
+}
