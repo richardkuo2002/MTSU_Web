@@ -26,23 +26,41 @@ header a{
     height: 100%;
     color: white;
     text-decoration: None;
-    transform: 0.5s;
 }
 
 header nav{
     height: 100%;
-    position:absolute;
-	right: 25px;  
-    /* padding-top: 134px; */
+    width: auto;
+    position: absolute;
+	right: 25px;
+    cursor: default;
 }
+
 
 .subtitle{
     color: white;
-    display: inline-block;
     height: 100%;
-    cursor: default;
+    display: inline-block;
+}
+
+.subtitle a{
+    width: 66px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    justify-content: center;
 }
 
 .subtitle a:hover{
     color: green;
+    background-color: white;
+}
+
+header.small h1{
+	padding: 25px;
+	font-size: 1.5em;
+}
+
+header.small nav{
+	top: 30px;
 }
