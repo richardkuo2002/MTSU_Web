@@ -5,12 +5,27 @@ body{
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
     background-color: aliceblue;
+    flex-wrap: wrap;
 }
 
 header{
-    background-color: green;
+    /* background: green; */
+    background-image: url("../img/cross.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     position: fixed;
     width: 100%;
+    z-index: 1;
+}
+
+header::before{
+    height: 100%;
+    width: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgba(0, 66, 0, 0.5);
 }
 
 header h1{
@@ -20,6 +35,7 @@ header h1{
     font-size: 3.5em;
     font-weight: bold;
     float: left;
+    transition: 0.5s;
 }
 
 header a{
@@ -34,6 +50,7 @@ header nav{
     position: absolute;
 	right: 25px;
     cursor: default;
+    transition: 0.5s;
 }
 
 
@@ -61,6 +78,28 @@ header.small h1{
 	font-size: 1.5em;
 }
 
-header.small nav{
-	top: 30px;
+.main{
+    margin:0 auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 320px;
+    transition: 0.5s;
+}
+
+.main.scroll{
+    padding-top: 110px;
+}
+
+.img_area{
+    width: 45%;
+    padding: 10px 1%;
+    border: 1px solid black;
+}
+
+.text_area{
+    width: 45%;
+    padding: 10px 1%;
+    border: 1px solid black;
 }
