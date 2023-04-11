@@ -198,8 +198,8 @@ body {
     color: var(--bs-body-color);
     text-align: var(--bs-body-text-align);
     background-color: var(--bs-body-bg);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent
+    /* -webkit-text-size-adjust: 100%; */
+    /* -webkit-tap-highlight-color: transparent */
 }
 
 hr {
@@ -300,8 +300,8 @@ abbr[title] {
     -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted;
     cursor: help;
-    -webkit-text-decoration-skip-ink: none;
-    text-decoration-skip-ink: none
+    /* -webkit-text-decoration-skip-ink: none; */
+    /* text-decoration-skip-ink: none; */
 }
 
 address {
@@ -457,7 +457,7 @@ caption {
 
 th {
     text-align: inherit;
-    text-align: -webkit-match-parent
+    /* text-align: -webkit-match-parent; */
 }
 
 tbody,
